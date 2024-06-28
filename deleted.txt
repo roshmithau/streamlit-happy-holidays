@@ -1,0 +1,11 @@
+"""Debugging: Print paths to check if they are correct
+
+st.write(f"CSS file path: {CSS_FILE}")
+st.write(f"Lottie animation file path: {LOTTIE_ANIMATION}")
+
+"""
+
+# Example of iterating over a dictionary (options)
+    options = {"option1": "value1", "option2": "value2"}  # Ensure this is a dictionary
+    for name, value in options.items():
+        st.write(f"Key: {name}, Value: {value}")
